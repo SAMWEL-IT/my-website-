@@ -24,7 +24,7 @@ This website is created SAMWEL by using phone
 <h2>Welcome</h2>
 <p class="success">You are joined to this website </p>in order to get more materials like to create website pay Tsh5500 to phone number +255 745 375 356 
 after pay, text me message of transaction in order to given you password to continue. learning and get knowledge more about Information Technology.</br>
-<p class="success">In this website you can learning about</p>
+<p class="success">this website you can learning about</p>
     <ol type="1">
         <li>Web developer </li>
         <li>HTML codes</li>
