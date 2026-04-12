@@ -1,6 +1,6 @@
    body {
         font-family: Arial;
-        background: #f0f2f5;
+        background: video;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -12,9 +12,9 @@
         background: #FFFFFF;
         padding: 20px;
         border-radius: 10px;
-        width: 350px;
-        height: px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        width: 450px;
+        height: 70%;
+        ox-shadow: 0 0 10px rgba(0,0,0,0.2);
     }
 
     h2 {
@@ -41,6 +41,7 @@
         border: none;
         border-radius: 5px;
         cursor: pointer;
+       
     }
 
     button:hover {
@@ -60,10 +61,10 @@
     .error {
         color: red;
     }
-    img {
-     border-radius: 0px;   
-     width:150px;
-     font-size: 200px;
+     img{
+        width: 130px;
+        height: 130px;
+        border-radius: 100%;
     }
     u{
         color: #000;
@@ -80,7 +81,7 @@
 }
 
 .payment {
-  background: #ffc107;
+  background: linear-gradient(90deg, #1e3a8a, #15f5ff);
   padding: 10px;
   margin-top: 10px;
   border-radius: 5px;
@@ -97,9 +98,113 @@ body {
       margin: 0;
       background: #f4f4f4;
     }
-    header {
-  background: #007bff;
-  color: white;
-  padding: 15px;
-  text-align: center;
-  }
+  header {
+     background: linear-gradient(90deg, #1e3a8a, #15f5ff);
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    height: 30%;
+}
+nav {
+    background:black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 30px;
+}
+
+.hero p{
+    color: gray;
+}
+.hero{
+    background: linear-gradient(90deg, #4740ff, #80d6ff, #ffffff);
+}
+video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: -1;
+ }
+ /* PRODUCTS */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    width: 390px;
+    margin: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+}
+.card p{
+    color: white;
+    font-weight: bold;
+    
+}
+.card-content {
+    padding: 15px;
+    text-align: left;
+    background: linear-gradient(90deg, #4740ff,#15f5ff);
+}
+
+.price {
+    color: #0d6efd;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 20px 25px;
+    background: #b9ff00;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    button-align: center;
+}
+footer {
+    background: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    width: 360px;
+}
+strong{
+    color: yellow;
+}
+
+p{
+    color: white;
+}
