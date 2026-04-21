@@ -53,6 +53,7 @@ select{
 table{
     border-color: blue;
     border-radius: 2%;
+  height: 100%;
 }
 
 
