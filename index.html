@@ -1,60 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>My Profile Website</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAMWEL-IT</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- Header -->
-<header>
-<h1>My Website</h1>
-<p>Welcome to my personal website</p>
-</header>
-<!-- Navigation -->
-<nav>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#social">Social Media</a>
-        <a href="#contact">Contact</a>
- </nav>
- <!-- About Section -->
- <section id="about">
- <h2>About Me</h2>
- <img src="my picture2.png"alt="My Photo" class="profile-img">
-<p><b>Hello! My name is Samwel. I am an IT student passionate about Information Technology.</p>
-</section>
-<!-- Education -->
-<section id="education">
-<h2>Education</h2>
-<ul>
-<li>College - CBE-MWANZA CAMPUS</li>
-Program: Diploma in Information Technology
-</ul>
+    <!-- App Title -->
+    <header>
+        <h1>SAMWEL-IT</h1>
+    </header>
 
-<img src="my picture3.jpg" alt="Education Image"class="education-img">
-</section>
-<!-- Social Media -->
-<section id="social">
-<h2>Find Me Online</h2>
-<button onclick="openFacebook()">Facebook</button>
-<button onclick="openInstagram()">Instagram</button>
-</section>
-<!-- Contact -->
-<section id="contact">
-<h2>Contact Me</h2>
-<p onclick="745375356">Phone: +255 745 375 356</p>
-<p>Email: samwelmwita062005@gmail.com</p>
-<form onsubmit="return sendMessage()">
-<input type="text" placeholder="Your Name" required><br><br>
-<input type="email" placeholder="Your Email" required><br><br>
-<textarea placeholder="Your Message"></textarea><br><br>
-<button type="submit">Send</button>
-</form>
-</section>
-<footer>
-<p>© 2026 My Profile</p>
-</footer>
-<script src="my website.js"></script>
+    <!-- Main video container -->
+    <div class="video-container">
+        <!-- First video -->
+        <div class="video">
+            <video class="video-player" autoplay loop muted>
+                <source src="video1.mp4" type="video/mp4">
+            </video>
+            <div class="controls">
+                <button class="like-button">Like</button>
+                <button class="comment-button">Comment</button>
+            </div>
+        </div>
+
+        <!-- Second video -->
+        <div class="video">
+            <video class="video-player" autoplay loop muted>
+                <source src="video2.mp4" type="video/mp4">
+            </video>
+            <div class="controls">
+                <button class="like-button">Like</button>
+                <button class="comment-button">Comment</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
